@@ -73,5 +73,39 @@ public class StringExerciseOne{
 		13.trim()
 		14.Method Chaining
 		*/
+
+		/* 
+		The Method Signatures
+		
+		1.int length()
+
+		2.char charAt(int index)
+
+		3.int indexOf(char ch)
+		3.int indexOf(char ch,indexFromIndex)
+		3.int indexOf(String str)
+		3.int indexOf(String str,index fromIndex)
+
+		4.String substring(int beginIndex)
+		4.String substring(int beginIndex,int endIndex)
+
+		5.String toLowerCase(String str)
+		6.String toUpperCase(String str)
+
+
+		7.boolean equals(String str)
+		8.boolean equals(String str)
+
+		9.boolean startsWith(String prefix)
+		10.boolean endsWith(String suffix)
+
+		11.boolean contains(String str)
+
+		12.String replace(char oldChar,char newChar)
+		12.String replace(charSequence oldChar, CharSequence newChar)
+
+		13.public String trim()			
+
+		*/
 	}
 }
