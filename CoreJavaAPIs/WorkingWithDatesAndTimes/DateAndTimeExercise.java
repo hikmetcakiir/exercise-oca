@@ -1,6 +1,7 @@
 
 import java.time.*;
-import java.util.*;
+import java.time.format.*;
+import java.util.Date;
 
 public class DateAndTimeExercise{
 	public static void main(String... _1a1rray){
@@ -56,5 +57,27 @@ public class DateAndTimeExercise{
 
 		LocalDate localDateFive = LocalDate.of(1997,2,20);
 		System.out.println("localDateFive is "+localDateFive.toEpochDay());
+
+		System.out.println();
+
+		LocalDate dateEight = LocalDate.of(2015,1,20);
+		LocalTime timeEight = LocalTime.of(6,15);
+		LocalDateTime dateTimeEight = LocalDateTime.of(dateEight,timeEight);
+		Period periodEight = Period.ofMonths(1);
+		System.out.println(dateEight.plus(periodEight)); //2015-02-20		
+		System.out.println(dateTimeEight.plus(periodEight)); //2015-02-20T06:15
+
+		System.out.println();
+		LocalDate dateNine = LocalDate.of(2020,Month.JANUARY,20);
+		System.out.println(dateNine.getDayOfWeek()); //MONDAY
+		System.out.println(dateNine.getMonth()); //JANUARY
+		System.out.println(dateNine.getYear()); //2020
+		System.out.println(dateNine.getDayOfYear()); //20
+
+
+		LocalDate dateTen = LocalDate.of(2020,Month.JANUARY,20);
+		LocalTime timeTen = LocalTime.of(11,12,34);
+		LocalDateTime dateTimeTen = LocalDateTime.of(dateTen,timeTen);
+	 	System.out.println(dateTen.format(DateTimeFormatter.ISO_LOCAL_DATE));
 	}
 }
