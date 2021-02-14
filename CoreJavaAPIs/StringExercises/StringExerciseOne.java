@@ -55,5 +55,23 @@ public class StringExerciseOne{
 
 		String result = "AniMaL   ".trim().toLowerCase().replace('a','A');
 		System.out.print("Result is "+result);
+
+
+		/*
+		1.length()
+		2.charAt()
+		3.indexOf()
+		4.substring()
+		5.toLowerCase()
+		6.toUpperCase()
+		7.equals()
+		8.equalsIgnoreCase()
+		9.startsWith()
+		10.endsWith()
+		11.contains()
+		12.replace()
+		13.trim()
+		14.Method Chaining
+		*/
 	}
 }
