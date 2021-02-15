@@ -98,18 +98,24 @@ public class StringBuilderExercises{
 		StringBuilder append(String str)
 		
 		char charAt(int index)
-		StringBuilder delete(int start,int index)
+		
+		int length()
+
+		String substring(int start)
+		
+		StringBuilder insert(int offset,String str)
+ 		StringBuilder insert(int offset,long l)
+		StringBuilder insert(int offset,char c)
+
+ 		StringBuilder reverse()
+	
+		StringBuilder delete(int start,int end)
 		StringBuilder deleteCharAt(int index)
 
-		StringBuilder insert(int offset,double,float,int,long.. s)
-
-		int length()
-		String substring(int start,int end)
-		StringBuilder reverse()
-		StringBuilder replace(int )
-
-
 		*/
+
+		String valueExercise = "HelloWorld  ";
+		System.out.println(valueExercise.trim().substring(0,5));
 
 	}
 }
