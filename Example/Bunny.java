@@ -2,7 +2,7 @@
 class Bunny2{
 
 	public static void main(String... $n){
-		System.out.println("Hello World from Bunny 2");
+		System.out.println("Hello World from Bunny 2	");
 	}
 }
 
