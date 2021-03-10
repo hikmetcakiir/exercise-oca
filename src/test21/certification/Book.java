@@ -1,0 +1,5 @@
+package certification;
+
+
+interface Book{
+}
