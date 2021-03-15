@@ -2,6 +2,11 @@ package packagea;
 
 
 public class Lion{
+	String a = "Hello";
+	public void printA(){
+		String a = "2";
+		this.a = a;
+	}
 	int y = 5;
 	static int x = add();
 	public static int add(){
