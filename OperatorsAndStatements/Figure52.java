@@ -28,6 +28,11 @@ public class Figure52{
 		else
 			result = "F";
 		
+		int x = 2_147_483_647;
+		int y = 1_999_999_999;
+		int z = 1_999_999_999;
+		int k = y + z;
+		System.out.println(k);
 		
 	}
 
