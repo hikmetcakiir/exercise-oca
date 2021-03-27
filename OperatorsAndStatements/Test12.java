@@ -9,9 +9,12 @@ public class Test12 {
 		//while( x < 11);
 	}
 	*/
-
+	
+	static int value = 24;
 	public static void main(String[] args) {
-		System.out.println('a' + 13 );	
+		int value = (value = 3 )* 4;
+		System.out.println("value=" + value);
+		//System.out.println('a' + 13 );	
 		//Byte b = Byte.parseByte("12.43");	
 
 		Long a = new Long(3);
