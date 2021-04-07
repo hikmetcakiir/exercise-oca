@@ -1,0 +1,8 @@
+
+W
+java:S1118":Add a private constructor to hide the implicit public one.(’òîí8Ò»ÂÁŠ/
+r
+java:S1104"VMake pageNumber a static final constant or non-public and provide accessors if needed.(ÜĞ‹J8Ò»ÂÁŠ/
+L
+java:S1444"0Make this "public static pageNumber" field final(ÜĞ‹J8Ò»ÂÁŠ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8’àÊÁŠ/
