@@ -1,0 +1,16 @@
+
+W
+java:S1854
+"5Remove this useless assignment to local variable "f".(Á¦İôúÿÿÿÿ8ê¡ÅêŠ/
+\
+java:S1161":Add the "@Override" annotation above this method signature( í„÷ûÿÿÿÿ8‡­‡ğŠ/
+W
+java:S1854"5Remove this useless assignment to local variable "f".(Á¦İôúÿÿÿÿ8êÅÂêŠ/
+H
+java:S1481"&Remove this unused "f" local variable.(Á¦İôúÿÿÿÿ8êÅÂêŠ/
+I
+java:S1172",Remove this unused method parameter "array".(å»üÚ8‚ÌşïŠ/
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ßš8‚ÌşïŠ/
+H
+java:S1481
+"&Remove this unused "f" local variable.(Á¦İôúÿÿÿÿ8ê¡ÅêŠ/
