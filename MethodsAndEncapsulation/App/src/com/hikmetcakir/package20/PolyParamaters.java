@@ -11,7 +11,7 @@ public class PolyParamaters {
 
         Rabbit rabbit = new Rabbit();
 
-        
+
     }
 
     public static void printDetails(Husky husky) {
