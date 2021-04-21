@@ -1,6 +1,6 @@
 package com.hikmetcakir.practice;
 
-public class C {
+public class C extends B {
 
     public static void main(String[] args) {
         String a = "a";
@@ -21,6 +21,11 @@ public class C {
 
         String s = null;
         System.out.println(s);
+
+        A ab = new A();
+
+
+        C cd =(C) ab;
     }
 
 }
