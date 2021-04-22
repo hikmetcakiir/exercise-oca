@@ -2,7 +2,7 @@ package com.hikmetcakir.practice2;
 
 public class Marsupial {
 
-    public   boolean isBiped() {
+    public static boolean isBiped() {
         return false;
     }
 
