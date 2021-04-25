@@ -7,6 +7,8 @@ import java.util.List;
 
 import static java.util.Arrays.*;
 
+import java.time.*;
+
 public class A {
 
     public static void main(String[] args) {
@@ -121,5 +123,7 @@ public class A {
         String Object = "hello";
         A A = new A();
 
+        LocalDate ld = LocalDate.of(2010,2,28);
+        System.out.println(ld);
     }
 }
