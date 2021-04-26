@@ -17,7 +17,6 @@ public class F {
 //        int[] a = null;
 //        Integer ic = a[0];
 
-        for(int j = 0; false;)
 
 
     }
