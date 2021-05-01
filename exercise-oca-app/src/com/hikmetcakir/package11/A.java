@@ -7,4 +7,5 @@ public class A {
     int packagePrivateVarA;
     private int privateVarA;
 
+    public Object a() throws Exception{return "";}
 }

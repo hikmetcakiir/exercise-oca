@@ -7,7 +7,9 @@ public class C extends B {
     int packagePrivateVarC;
     private int privateVarC;
 
-    public void c() {
+
+    public void c()  {
+        C c = new C();
 
     }
 }
