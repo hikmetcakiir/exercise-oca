@@ -14,6 +14,6 @@ public class CC extends BB {
     }
 
     public static void main(String[] args) {
-//        CC cc = new CC();
+         CC cc = new CC();
     }
 }

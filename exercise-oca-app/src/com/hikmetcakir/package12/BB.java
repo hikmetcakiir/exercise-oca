@@ -3,6 +3,8 @@ package com.hikmetcakir.package12;
 import java.time.Period;
 
 public class BB extends AA {
+
+    public int var = 6;
     {
         System.out.println("BB's instance initializers");
     }
