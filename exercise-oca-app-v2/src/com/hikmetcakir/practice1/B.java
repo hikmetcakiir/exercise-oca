@@ -6,4 +6,5 @@ public abstract class B {
     final int b = 4;
 //    final abstract int c();
 
+    protected abstract void A();
 }
